@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="bodlogo 3"/>
+        <attribute name="authors" value="xingd"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-04 04:01:42 PM"/>
+        <attribute name="created" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzAyOjU5OjM4IFBNOzIxNDA="/>
+        <attribute name="edited" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzA0OjAxOjQyIFBNOzM7MjIzNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;x-iin utga oruulna uu&quot;" newline="True"/>
+            <input variable="a"/>
+            <assign variable="b" expression="4*(a^2)-3*a+5"/>
+            <output expression="&quot;hariu:&quot;" newline="False"/>
+            <output expression="b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

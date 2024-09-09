@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="bodlogo 7"/>
+        <attribute name="authors" value="xingd"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-04 05:09:12 PM"/>
+        <attribute name="created" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzA0OjM1OjA4IFBNOzIxMzM="/>
+        <attribute name="edited" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzA1OjA5OjEyIFBNOzE7MjIzOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d, e" type="Integer" array="False" size=""/>
+            <output expression="&quot;4 udaa too oruulna uuz&quot;" newline="True"/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <input variable="d"/>
+            <if expression="a % 7 == 0">
+                <then>
+                    <assign variable="e" expression="0+1"/>
+                </then>
+                <else>
+                    <assign variable="e" expression="0"/>
+                </else>
+            </if>
+            <if expression="b % 7==0">
+                <then>
+                    <assign variable="e" expression="e + 1"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="c % 7 ==7">
+                <then>
+                    <assign variable="e" expression="e + 1"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="d % 7 ==0">
+                <then>
+                    <assign variable="e" expression="e + 1"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;niit too: &quot;" newline="False"/>
+            <output expression="e" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

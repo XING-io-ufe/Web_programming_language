@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="bodlogo 6"/>
+        <attribute name="authors" value="xingd"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-04 04:20:02 PM"/>
+        <attribute name="created" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzA0OjE0OjAzIFBNOzIxMjU="/>
+        <attribute name="edited" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzA0OjIwOjAyIFBNOzE7MjIyOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <output expression="&quot; too oruulna uu: &quot;" newline="False"/>
+            <input variable="a"/>
+            <if expression="a % 2==0">
+                <then>
+                    <output expression="&quot;tegsh&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;sondgoi&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

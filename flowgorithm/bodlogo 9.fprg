@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="bodlogo 9"/>
+        <attribute name="authors" value="xingd"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-04 05:51:00 PM"/>
+        <attribute name="created" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzA1OjQ0OjQ1IFBNOzIxMzU="/>
+        <attribute name="edited" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzA1OjUxOjAwIFBNOzE7MjIzMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <if expression="a==1">
+                <then>
+                    <output expression="&quot;monday&quot;" newline="True"/>
+                    <breakpoint expression="" always="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="a==2">
+                <then>
+                    <output expression="&quot;tuesday&quot;" newline="True"/>
+                    <breakpoint expression="" always="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="a==3">
+                <then>
+                    <output expression="&quot;wednesday&quot;" newline="True"/>
+                    <breakpoint expression="" always="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="a==4">
+                <then>
+                    <output expression="&quot;thursday&quot;" newline="True"/>
+                    <breakpoint expression="" always="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="a==5">
+                <then>
+                    <output expression="&quot;friday&quot;" newline="True"/>
+                    <breakpoint expression="" always="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="a==6">
+                <then>
+                    <output expression="&quot;saturday&quot;" newline="True"/>
+                    <breakpoint expression="" always="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="a==7">
+                <then>
+                    <output expression="&quot;sunday&quot;" newline="True"/>
+                    <breakpoint expression="" always="True"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;tiim utga alga&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

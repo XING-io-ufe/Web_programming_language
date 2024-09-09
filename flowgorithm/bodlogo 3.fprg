@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="bodlogo 3"/>
+        <attribute name="authors" value="xingd"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-04 03:49:03 PM"/>
+        <attribute name="created" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzAyOjU5OjM4IFBNOzIxNDA="/>
+        <attribute name="edited" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzAzOjQ5OjAzIFBNOzM7MjI0Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <assign variable="b" expression="a % 10"/>
+            <assign variable="c" expression="a / 10"/>
+            <assign variable="d" expression="b * c"/>
+            <output expression="d" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="bodlogo 5"/>
+        <attribute name="authors" value="xingd"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-04 04:13:55 PM"/>
+        <attribute name="created" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzA0OjAxOjQ1IFBNOzIxMjc="/>
+        <attribute name="edited" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzA0OjEzOjU1IFBNOzE7MjIzOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <if expression="a==b">
+                <then>
+                    <output expression="&quot;2 too hoorondoo tentsuu&quot;" newline="False"/>
+                </then>
+                <else>
+                    <if expression="a&gt;b">
+                        <then>
+                            <output expression="&quot;a too in ih&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;b too in ih&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="bodlogo 8"/>
+        <attribute name="authors" value="xingd"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-04 05:44:42 PM"/>
+        <attribute name="created" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzA1OjE4OjQxIFBNOzIxMzI="/>
+        <attribute name="edited" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzA1OjQ0OjQyIFBNOzM7MjI0Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d, e" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <input variable="d"/>
+            <if expression="a &gt; 60">
+                <then>
+                    <assign variable="e" expression="a"/>
+                </then>
+                <else>
+                    <assign variable="e" expression="0"/>
+                </else>
+            </if>
+            <if expression="b&gt;60">
+                <then>
+                    <assign variable="e" expression="e+b"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="c&gt;60">
+                <then>
+                    <assign variable="e" expression="e+c"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="d&gt;60">
+                <then>
+                    <assign variable="e" expression="e+d"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="e" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

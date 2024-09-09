@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="bodlogo 2"/>
+        <attribute name="authors" value="xingd"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-04 03:58:10 PM"/>
+        <attribute name="created" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzAzOjU0OjM3IFBNOzIxMzU="/>
+        <attribute name="edited" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzAzOjU4OjEwIFBNOzE7MjIzOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <assign variable="b" expression="a / 60"/>
+            <assign variable="c" expression="a % 60"/>
+            <output expression="&quot;minut: &quot;" newline="False"/>
+            <output expression="b" newline="True"/>
+            <output expression="&quot;second: &quot;" newline="False"/>
+            <output expression="c" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>
