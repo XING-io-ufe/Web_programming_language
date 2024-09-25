@@ -1,3 +1,4 @@
+// 1 ээс i тоо хүртэлх бүх тоог хэвлэж харуул
 var prompt = require('prompt-sync')();
 var a = parseInt(prompt('number 1 '));
 

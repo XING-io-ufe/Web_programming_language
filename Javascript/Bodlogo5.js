@@ -1,3 +1,4 @@
+// х-ийн утга өгөгдөхөд  дараах илэрхийллийг бод y=4(x^2)-3x+5
 var prompt = require('prompt-sync')();
 var a = parseInt(prompt('number 1 '));
 

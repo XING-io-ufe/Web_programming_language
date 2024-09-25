@@ -1,50 +1,28 @@
 <?xml version="1.0"?>
 <flowgorithm fileversion="4.2">
     <attributes>
-        <attribute name="name" value="bodlogo 7"/>
+        <attribute name="name" value="bodlogo 6"/>
         <attribute name="authors" value="xingd"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-09-04 05:09:12 PM"/>
-        <attribute name="created" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzA0OjM1OjA4IFBNOzIxMzM="/>
-        <attribute name="edited" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzA1OjA5OjEyIFBNOzE7MjIzOA=="/>
+        <attribute name="saved" value="2024-09-25 04:00:33 PM"/>
+        <attribute name="created" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzA0OjE0OjAzIFBNOzIxMjU="/>
+        <attribute name="edited" value="eGluZ2Q7WElORzsyMDI0LTA5LTI1OzA0OjAwOjMzIFBNOzI7MjIzNQ=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="a, b, c, d, e" type="Integer" array="False" size=""/>
-            <output expression="&quot;4 udaa too oruulna uuz&quot;" newline="True"/>
+            <comment text="&#1256;&#1075;&#1257;&#1075;&#1076;&#1089;&#1257;&#1085; &#1090;&#1086;&#1086; &#1089;&#1086;&#1085;&#1076;&#1075;&#1086;&#1081; &#1101;&#1089;&#1074;&#1101;&#1083; &#1090;&#1101;&#1075;&#1096;&#1080;&#1081;&#1075; &#1086;&#1083;&#13;&#10;"/>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <output expression="&quot; too oruulna uu: &quot;" newline="False"/>
             <input variable="a"/>
-            <input variable="b"/>
-            <input variable="c"/>
-            <input variable="d"/>
-            <if expression="a % 7 == 0">
+            <if expression="a % 2==0">
                 <then>
-                    <assign variable="e" expression="0+1"/>
+                    <output expression="&quot;tegsh&quot;" newline="True"/>
                 </then>
                 <else>
-                    <assign variable="e" expression="0"/>
+                    <output expression="&quot;sondgoi&quot;" newline="True"/>
                 </else>
             </if>
-            <if expression="b % 7==0">
-                <then>
-                    <assign variable="e" expression="e + 1"/>
-                </then>
-                <else/>
-            </if>
-            <if expression="c % 7 ==7">
-                <then>
-                    <assign variable="e" expression="e + 1"/>
-                </then>
-                <else/>
-            </if>
-            <if expression="d % 7 ==0">
-                <then>
-                    <assign variable="e" expression="e + 1"/>
-                </then>
-                <else/>
-            </if>
-            <output expression="&quot;niit too: &quot;" newline="False"/>
-            <output expression="e" newline="True"/>
         </body>
     </function>
 </flowgorithm>

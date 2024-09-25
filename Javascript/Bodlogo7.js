@@ -1,3 +1,4 @@
+// Өгөгдсөн тоо сондгой эсвэл тэгшийг ол
 var prompt = require('prompt-sync')();
 var a = parseInt(prompt('number 1 '));
 

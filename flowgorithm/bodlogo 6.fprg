@@ -1,25 +1,33 @@
 <?xml version="1.0"?>
 <flowgorithm fileversion="4.2">
     <attributes>
-        <attribute name="name" value="bodlogo 6"/>
+        <attribute name="name" value="bodlogo 5"/>
         <attribute name="authors" value="xingd"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-09-04 04:20:02 PM"/>
-        <attribute name="created" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzA0OjE0OjAzIFBNOzIxMjU="/>
-        <attribute name="edited" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzA0OjIwOjAyIFBNOzE7MjIyOQ=="/>
+        <attribute name="saved" value="2024-09-25 03:59:41 PM"/>
+        <attribute name="created" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzA0OjAxOjQ1IFBNOzIxMjc="/>
+        <attribute name="edited" value="eGluZ2Q7WElORzsyMDI0LTA5LTI1OzAzOjU5OjQxIFBNOzM7MjI0OA=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="a" type="Integer" array="False" size=""/>
-            <output expression="&quot; too oruulna uu: &quot;" newline="False"/>
+            <comment text="2-&#1090;&#1086;&#1086;&#1085;&#1099; &#1073;&#1072;&#1075;&#1099;&#1075; &#1086;&#1083;&#13;&#10;"/>
+            <declare name="a, b" type="Integer" array="False" size=""/>
             <input variable="a"/>
-            <if expression="a % 2==0">
+            <input variable="b"/>
+            <if expression="a==b">
                 <then>
-                    <output expression="&quot;tegsh&quot;" newline="True"/>
+                    <output expression="&quot;2 too hoorondoo tentsuu&quot;" newline="False"/>
                 </then>
                 <else>
-                    <output expression="&quot;sondgoi&quot;" newline="True"/>
+                    <if expression="a&gt;b">
+                        <then>
+                            <output expression="&quot;b too in baga too&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;a too in baga too&quot;" newline="True"/>
+                        </else>
+                    </if>
                 </else>
             </if>
         </body>

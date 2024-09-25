@@ -1,47 +1,50 @@
 <?xml version="1.0"?>
 <flowgorithm fileversion="4.2">
     <attributes>
-        <attribute name="name" value="bodlogo 8"/>
+        <attribute name="name" value="bodlogo 7"/>
         <attribute name="authors" value="xingd"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-09-04 05:44:42 PM"/>
-        <attribute name="created" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzA1OjE4OjQxIFBNOzIxMzI="/>
-        <attribute name="edited" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzA1OjQ0OjQyIFBNOzM7MjI0Mg=="/>
+        <attribute name="saved" value="2024-09-25 04:01:35 PM"/>
+        <attribute name="created" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzA0OjM1OjA4IFBNOzIxMzM="/>
+        <attribute name="edited" value="eGluZ2Q7WElORzsyMDI0LTA5LTI1OzA0OjAxOjM1IFBNOzI7MjIzOA=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
+            <comment text="&#1257;&#1075;&#1257;&#1075;&#1076;&#1089;&#1257;&#1085; 4 &#1090;&#1086;&#1086;&#1085;&#1099; 7-&#1076; &#1199;&#1083;&#1076;&#1101;&#1075;&#1076;&#1101;&#1083;&#1075;&#1199;&#1081;  &#1093;&#1091;&#1074;&#1072;&#1072;&#1075;&#1076;&#1076;&#1072;&#1075; &#1090;&#1086;&#1086;&#1085;&#1091;&#1091;&#1076;&#1080;&#1081;&#1075; &#1086;&#1083;"/>
             <declare name="a, b, c, d, e" type="Integer" array="False" size=""/>
+            <output expression="&quot;4 udaa too oruulna uuz&quot;" newline="True"/>
             <input variable="a"/>
             <input variable="b"/>
             <input variable="c"/>
             <input variable="d"/>
-            <if expression="a &gt; 60">
+            <if expression="a % 7 == 0">
                 <then>
-                    <assign variable="e" expression="a"/>
+                    <assign variable="e" expression="0+1"/>
                 </then>
                 <else>
                     <assign variable="e" expression="0"/>
                 </else>
             </if>
-            <if expression="b&gt;60">
+            <if expression="b % 7==0">
                 <then>
-                    <assign variable="e" expression="e+b"/>
+                    <assign variable="e" expression="e + 1"/>
                 </then>
                 <else/>
             </if>
-            <if expression="c&gt;60">
+            <if expression="c % 7 ==7">
                 <then>
-                    <assign variable="e" expression="e+c"/>
+                    <assign variable="e" expression="e + 1"/>
                 </then>
                 <else/>
             </if>
-            <if expression="d&gt;60">
+            <if expression="d % 7 ==0">
                 <then>
-                    <assign variable="e" expression="e+d"/>
+                    <assign variable="e" expression="e + 1"/>
                 </then>
                 <else/>
             </if>
+            <output expression="&quot;niit too: &quot;" newline="False"/>
             <output expression="e" newline="True"/>
         </body>
     </function>

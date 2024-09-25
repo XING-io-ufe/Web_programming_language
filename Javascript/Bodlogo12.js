@@ -1,3 +1,4 @@
+// 1-i тоо хүртэлх сондгой тоонуудыг хэвлэж харуул
 var prompt = require('prompt-sync')();
 var a = parseInt(prompt('number 1 '));
 

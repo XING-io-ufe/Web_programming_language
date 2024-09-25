@@ -1,20 +1,23 @@
 <?xml version="1.0"?>
 <flowgorithm fileversion="4.2">
     <attributes>
-        <attribute name="name" value="bodlogo 3"/>
+        <attribute name="name" value="Bodlogo 1"/>
         <attribute name="authors" value="xingd"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-09-04 03:46:51 PM"/>
-        <attribute name="created" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzAyOjU5OjM4IFBNOzIxNDA="/>
-        <attribute name="edited" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzAzOjQ2OjUxIFBNOzI7MjI0MQ=="/>
+        <attribute name="saved" value="2024-09-25 03:36:37 PM"/>
+        <attribute name="created" value="eGluZ2Q7WElORzsyMDI0LTA5LTI1OzAzOjMzOjA3IFBNOzIxMzI="/>
+        <attribute name="edited" value="eGluZ2Q7WElORzsyMDI0LTA5LTI1OzAzOjM2OjM3IFBNOzE7MjI0Ng=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="a, b" type="Integer" array="False" size=""/>
+            <comment text="2 &#1090;&#1086;&#1086;&#1085;&#1099; &#1103;&#1083;&#1075;&#1072;&#1074;&#1072;&#1088; &#1086;&#1083;&#1086;&#1093;"/>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <output expression="&quot;a, b toog oruul uu: &quot;" newline="True"/>
             <input variable="a"/>
-            <assign variable="b" expression="a % 10"/>
-            <output expression="b" newline="True"/>
+            <input variable="b"/>
+            <assign variable="c" expression="a - b"/>
+            <output expression="c" newline="True"/>
         </body>
     </function>
 </flowgorithm>

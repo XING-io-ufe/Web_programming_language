@@ -4,13 +4,14 @@
         <attribute name="name" value="bodlogo 3"/>
         <attribute name="authors" value="xingd"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-09-04 03:49:03 PM"/>
+        <attribute name="saved" value="2024-09-25 03:41:39 PM"/>
         <attribute name="created" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzAyOjU5OjM4IFBNOzIxNDA="/>
-        <attribute name="edited" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzAzOjQ5OjAzIFBNOzM7MjI0Mg=="/>
+        <attribute name="edited" value="eGluZ2Q7WElORzsyMDI0LTA5LTI1OzAzOjQxOjM5IFBNOzQ7MjI0Nw=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
+            <comment text="&#1256;&#1075;&#1257;&#1075;&#1076;&#1089;&#1257;&#1085; 2 &#1086;&#1088;&#1086;&#1085;&#1090;&#1086;&#1081; &#1090;&#1086;&#1086;&#1085;&#1099; &#1094;&#1080;&#1092;&#1088;&#1199;&#1199;&#1076;&#1080;&#1081;&#1085; &#1199;&#1088;&#1078;&#1074;&#1101;&#1088;&#1080;&#1081;&#1075; &#1086;&#1083;&#13;&#10;"/>
             <declare name="a, b, c, d" type="Integer" array="False" size=""/>
             <input variable="a"/>
             <assign variable="b" expression="a % 10"/>

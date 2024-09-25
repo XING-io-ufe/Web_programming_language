@@ -1,21 +1,69 @@
 <?xml version="1.0"?>
 <flowgorithm fileversion="4.2">
     <attributes>
-        <attribute name="name" value="bodlogo 10"/>
+        <attribute name="name" value="bodlogo 9"/>
         <attribute name="authors" value="xingd"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-09-04 05:54:45 PM"/>
-        <attribute name="created" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzA1OjUxOjAyIFBNOzIxMjY="/>
-        <attribute name="edited" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzA1OjU0OjQ1IFBNOzE7MjI0NA=="/>
+        <attribute name="saved" value="2024-09-25 04:03:54 PM"/>
+        <attribute name="created" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzA1OjQ0OjQ1IFBNOzIxMzU="/>
+        <attribute name="edited" value="eGluZ2Q7WElORzsyMDI0LTA5LTI1OzA0OjAzOjU0IFBNOzI7MjI0MQ=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="a, i" type="Integer" array="False" size=""/>
+            <comment text="&#1076;&#1086;&#1083;&#1086;&#1086; &#1093;&#1086;&#1085;&#1086;&#1075;&#1080;&#1081;&#1085; &#1076;&#1091;&#1075;&#1072;&#1072;&#1088; &#1257;&#1075;&#1257;&#1075;&#1076;&#1257;&#1093;&#1257;&#1076; &#1093;&#1072;&#1088;&#1075;&#1072;&#1083;&#1079;&#1072;&#1093; &#1075;&#1072;&#1088;&#1072;&#1075;&#1080;&#1081;&#1075; &#1072;&#1085;&#1075;&#1083;&#1080;&#1072;&#1088; &#1093;&#1101;&#1074;&#1083;&#1101;&#13;&#10;"/>
+            <declare name="a" type="Integer" array="False" size=""/>
             <input variable="a"/>
-            <for variable="i" start="1" end="a" direction="inc" step="1">
-                <output expression="i" newline="True"/>
-            </for>
+            <if expression="a==1">
+                <then>
+                    <output expression="&quot;monday&quot;" newline="True"/>
+                    <breakpoint expression="" always="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="a==2">
+                <then>
+                    <output expression="&quot;tuesday&quot;" newline="True"/>
+                    <breakpoint expression="" always="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="a==3">
+                <then>
+                    <output expression="&quot;wednesday&quot;" newline="True"/>
+                    <breakpoint expression="" always="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="a==4">
+                <then>
+                    <output expression="&quot;thursday&quot;" newline="True"/>
+                    <breakpoint expression="" always="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="a==5">
+                <then>
+                    <output expression="&quot;friday&quot;" newline="True"/>
+                    <breakpoint expression="" always="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="a==6">
+                <then>
+                    <output expression="&quot;saturday&quot;" newline="True"/>
+                    <breakpoint expression="" always="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="a==7">
+                <then>
+                    <output expression="&quot;sunday&quot;" newline="True"/>
+                    <breakpoint expression="" always="True"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;tiim utga alga&quot;" newline="True"/>
         </body>
     </function>
 </flowgorithm>

@@ -1,3 +1,4 @@
+// долоо хоногийн дугаар өгөгдөхөд харгалзах гарагийг англиар хэвлэ
 var prompt = require('prompt-sync')();
 var a = parseInt(prompt('ta garigaa oruulna uu: '));
 

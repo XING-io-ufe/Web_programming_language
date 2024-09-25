@@ -68,33 +68,53 @@ const prompt = require('prompt-sync')();
 
 
 
-let rows = prompt('enter value rows: ');
-let cols = prompt('enter value cols: ');
+// let rows = prompt('enter value rows: ');
+// let cols = prompt('enter value cols: ');
 
-let arr2D = new Array(rows);
+// let arr2D = new Array(rows);
 
-for (let i = 0; i < rows; i++) {
-    arr2D[i] = new Array(cols);
-    for (let j = 0; j < cols; j++) {
-        arr2D[i][j] = Math.floor(Math.random() * 10); 
-    }
-}
-
-
-console.log("2D Array with random numbers:");
-for (let i = 0; i < rows; i++) {
-    console.log(arr2D[i]);
-}
+// for (let i = 0; i < rows; i++) {
+//     arr2D[i] = new Array(cols);
+//     for (let j = 0; j < cols; j++) {
+//         arr2D[i][j] = Math.floor(Math.random() * 10); 
+//     }
+// }
 
 
-let niilber = 0;
+// console.log("2D array");
+// for (let i = 0; i < rows; i++) {
+//     console.log(arr2D[i]);
+// }
 
-for (let i = 0; i < rows; i++) {
-    for (let j = 0; j < cols; j++) {
-        if (arr2D[i][j] % 2 === 0) {
-            niilber += arr2D[i][j];
+
+// let niilber = 0;
+
+// for (let i = 0; i < rows; i++) {
+//     for (let j = 0; j < cols; j++) {
+//         if (arr2D[i][j] % 2 === 0) {
+//             niilber += arr2D[i][j];
+//         }
+//     }
+// }
+
+// console.log("Tegsh too niilber:", niilber);
+
+
+let arr =[1,2,3,4,5,6,7,8,9,10,4];
+let maxRepetition = 0;
+let maxElement;
+
+for (let i = 0; i < arr.length; i++) {
+    let count = 0;
+    for (let j = 0; j < arr.length; j++) {
+        if (arr[i] === arr[j]) {
+            count++;
         }
     }
+    if (count > maxRepetition) {
+        maxRepetition = count;
+        maxElement = arr[i];
+    }
 }
 
-console.log("Tegsh too niilber:", niilber);
+console.log('davtsan too ' + maxElement + ' heden udaa ' + maxRepetition);

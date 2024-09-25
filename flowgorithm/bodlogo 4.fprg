@@ -1,22 +1,25 @@
 <?xml version="1.0"?>
 <flowgorithm fileversion="4.2">
     <attributes>
-        <attribute name="name" value="bodlogo 3"/>
+        <attribute name="name" value="bodlogo 2"/>
         <attribute name="authors" value="xingd"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-09-04 04:01:42 PM"/>
-        <attribute name="created" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzAyOjU5OjM4IFBNOzIxNDA="/>
-        <attribute name="edited" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzA0OjAxOjQyIFBNOzM7MjIzNA=="/>
+        <attribute name="saved" value="2024-09-25 03:51:16 PM"/>
+        <attribute name="created" value="eGluZ2Q7WElORzsyMDI0LTA5LTA0OzAzOjU0OjM3IFBNOzIxMzU="/>
+        <attribute name="edited" value="eGluZ2Q7WElORzsyMDI0LTA5LTI1OzAzOjUxOjE2IFBNOzI7MjI0MQ=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="a, b" type="Integer" array="False" size=""/>
-            <output expression="&quot;x-iin utga oruulna uu&quot;" newline="True"/>
+            <comment text="&#1256;&#1075;&#1257;&#1075;&#1076;&#1089;&#1257;&#1085; &#1089;&#1077;&#1082;&#1091;&#1085;&#1076;&#1080;&#1081;&#1075; &#1084;&#1080;&#1085;&#1091;&#1090; &#1089;&#1077;&#1082;&#1091;&#1085;&#1076; &#1088;&#1091;&#1091;  &#1093;&#1257;&#1088;&#1074;&#1199;&#1199;&#1083;&#13;&#10;"/>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
             <input variable="a"/>
-            <assign variable="b" expression="4*(a^2)-3*a+5"/>
-            <output expression="&quot;hariu:&quot;" newline="False"/>
+            <assign variable="b" expression="a / 60"/>
+            <assign variable="c" expression="a % 60"/>
+            <output expression="&quot;minut: &quot;" newline="False"/>
             <output expression="b" newline="True"/>
+            <output expression="&quot;second: &quot;" newline="False"/>
+            <output expression="c" newline="False"/>
         </body>
     </function>
 </flowgorithm>

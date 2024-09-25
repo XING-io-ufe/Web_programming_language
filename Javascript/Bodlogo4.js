@@ -1,3 +1,4 @@
+// Өгөгдсөн секундийг минут секунд руу  хөрвүүл
 var prompt = require('prompt-sync')();
 var a = parseInt(prompt('number 1 '));
 

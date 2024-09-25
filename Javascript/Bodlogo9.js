@@ -1,3 +1,4 @@
+// Өгөгдсөн 4 тооны 60-аас их тоонуудын нийлбэрийг ол
 var prompt = require('prompt-sync')();
 var a = parseInt(prompt('number 1 '));
 var b = parseInt(prompt('number 2 '));
