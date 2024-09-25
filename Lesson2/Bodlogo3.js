@@ -1,3 +1,4 @@
+// өгөгдсөн тооны хамгийн их ерөнхий хуваагчийг ол
 var prompt = require('prompt-sync')();
 var too1 = prompt('utga oruulna uu 1: ');
 var too2 = prompt('utga oruulna uu 2: ');
