@@ -13,12 +13,6 @@ for (let i = 0; i < rows; i++) {
 }
 
 
-// console.log("2D array");
-// for (let i = 0; i < rows; i++) {
-//     console.log(arr2D[i]);
-// }
-
-
 let niilber = 0;
 
 for (let i = 0; i < rows; i++) {
