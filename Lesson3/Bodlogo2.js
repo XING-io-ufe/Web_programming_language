@@ -1,14 +1,14 @@
 const prompt = require('prompt-sync')();
 // NxM хэмжээтэй санамсаргүй тоогоор дүүргэсэн 2 хэмжээст тоон массив үүсгэж массивын тэгш тоонуудын нийлбэрийг ол
-let rows = prompt('enter value rows: ');
-let cols = prompt('enter value cols: ');
+let rows = prompt('мөрний утга авна: ');
+let cols = prompt('баганы утга авна: ');
 
-let arr2D = new Array(rows);
+let arr2D = [];
 
 for (let i = 0; i < rows; i++) {
-    arr2D[i] = new Array(cols);
+    arr2D[i] = [];
     for (let j = 0; j < cols; j++) {
-        arr2D[i][j] = Math.floor(Math.random() * 10); 
+        arr2D[i][j] = Math.floor(Math.random() * 10);
     }
 }
 
@@ -23,4 +23,4 @@ for (let i = 0; i < rows; i++) {
     }
 }
 
-console.log("Tegsh too niilber:", niilber);
+console.log("Тэгш тоонуудын нийлбэр:", niilber);

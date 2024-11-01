@@ -1,3 +1,12 @@
+// Дараах шинж чанаруудтай
+//  Bankaccount нэртэй класс үүсгэ.
+//      accountNumber
+//      accountHolder
+//      balance
+// 1. Дансанд мөнгө нэмэх функц нэмэ;
+// 2. Данснаас мөнгө хасах функц нэмэ;
+// 3. Дансны мэдээлэл харуулах функц нэмэх
+
 class BankAccount {
     constructor(accountNumber, accountHolder, balance) {
         this.accountNumber = accountNumber;

@@ -6,12 +6,36 @@ let numbers = [
     [2, 3, 5, 9]
 ];
 
-let product = 1;
 
-for (let i = 0; i < numbers.length; i++) {
-    product *= numbers[i][0] * numbers[i][numbers[0].length - 1];
+let a = 1;
+let b = 1;
+let c = 1;
+let d = 1;
+
+
+let rows = numbers.length;
+let cols = numbers[0].length;
+
+// Дээд мөр
+for (let i = 0; i < cols; i++) {
+    a *= numbers[0][i];
 }
 
-product *= numbers[0][numbers[0].length - 1] * numbers[numbers.length - 1][0];
+// Доод мөр
+for (let i = 0; i < cols; i++) {
+    b *= numbers[rows - 1][i];
+}
 
+// Зүүн багана (булангийн элементүүдийг оруулахгүй)
+for (let i = 1; i < rows - 1; i++) {
+    c *= numbers[i][0];
+}
+
+// Баруун багана (булангийн элементүүдийг оруулахгүй)
+for (let i = 1; i < rows - 1; i++) {
+    d *= numbers[i][cols - 1];
+}
+
+let product = a * b * c * d;
+console.log(a, b, c, d)
 console.log(product);
