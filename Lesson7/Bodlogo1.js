@@ -13,7 +13,7 @@ let tasks = [
     { title: "Спорт зааланд явах", isComplete: false }
 ];
 
-// 1. Шинэ ажил нэмэх функц
+
 function addTask(title) {
     const newTask = {
         title: title,
@@ -23,7 +23,7 @@ function addTask(title) {
     console.log(`Ажил нэмэгдлээ: ${title}`);
 }
 
-// 2. Ажил гүйцэтгэсэн төлөв өөрчлөх функц
+
 function completeTask(x) {
     if (x >= 0 && x < tasks.length) {
         tasks[x].isComplete = true;
@@ -33,7 +33,7 @@ function completeTask(x) {
     }
 }
 
-// 3. Бүх ажлын жагсаалтыг харуулах функц (for циклыг ашиглан)
+
 function displayTasks() {
     console.log("Ажилуудын жагсаалт:");
     for (let i = 0; i < tasks.length; i++) {
@@ -42,9 +42,9 @@ function displayTasks() {
     }
 }
 
-// Жишээ хэрэглээ
+
 addTask("Bike driving");
 displayTasks();
 
-completeTask(1); // 2-р ажлыг гүйцэтгэсэн гэж тэмдэглэх
+completeTask(1);
 displayTasks();

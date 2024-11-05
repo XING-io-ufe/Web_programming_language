@@ -1,28 +1,31 @@
-// 9.Гурвалжин эсэх
-// Өгөгдсөн 3 тоогоор талаа хийсэн гурвалжинг байгуулж болох бол YES үгүй бол NO гэж
-// хэвлэ.
-// Input
-// Нэг мөрөнд 3 натурал тоо зайгаар тусгаарлагдан өгөгдөнө.
-// Output
-// Гурвалжин байгуулж болох бол YES үгүй бол NO.
-// Example
+// 3. Муугийн тоо
+// Сурагчдын дүн нэг хэмжээст массиваар өгөгдөв.Муу дүгнэгдсэн сурагчдын тоог ол.
+//     Input
+// Эхний мөрөнд сурагчдын тоо.
+// Дараагийн мөрүүдэд сурагчдын дүн нэг нэг мөрөнд өгөгдөнө.
+//     Output
+// Муу дүнтэй сурагчдын тоо.
+//     Жишээ
 // Input:
-// 3 4 5
+// 5
+// 96
+// 59
+// 55
+// 76
+// 62
 // Output:
-// YES
+// 2
 
 const prompt = require('prompt-sync')();
-const input = prompt("ta gurvaljin utga space tei orull:"); // Жишээ оруулга
-const sides = input.split(" "); // Зайгаар тусгаарлан хувааж байна
 
-// Гурван талын уртыг тоон утганд хөрвүүлж байна
-const a = Number(sides[0]);
-const b = Number(sides[1]);
-const c = Number(sides[2]);
+let niitSuragch = prompt("Сурагчдын тоо оруулна уу: ");;
+let muuDunteiCount = 0;
 
-// Гурвалжин байгуулах боломжтой эсэхийг шалгах
-if ((a + b > c) && (a + c > b) && (b + c > a)) {
-    console.log("YES");
-} else {
-    console.log("NO");
+for (let i = 0; i < niitSuragch; i++) {
+    let dun = prompt();
+    if (dun < 60) {
+        muuDunteiCount++;
+    }
 }
+
+console.log(muuDunteiCount);

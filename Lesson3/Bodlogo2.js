@@ -17,10 +17,10 @@ let niilber = 0;
 
 for (let i = 0; i < rows; i++) {
     for (let j = 0; j < cols; j++) {
-        if (arr2D[i][j] % 2 === 0) {
+        if (arr2D[i][j] % 2 == 0) {
             niilber += arr2D[i][j];
         }
     }
 }
-
+console.log(arr2D);
 console.log("Тэгш тоонуудын нийлбэр:", niilber);

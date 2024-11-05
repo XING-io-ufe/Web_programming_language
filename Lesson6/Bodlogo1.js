@@ -20,11 +20,11 @@ class BankAccount {
         console.log(`Dansni uldegedel: ${this.balance}`);
     }
     deposit(orlogo) {
-        this.balance = orlogo;
+        this.balance += orlogo;
         console.log(`tani dansand ${this.balance} togrog bolj nemegdlee`);
     }
     withdraw(zarlaga) {
-        this.balance = zarlaga;
+        this.balance -= zarlaga;
         console.log(`tani dansanaas ${this.balance} togrog asagdlaa`);
     }
 }
@@ -32,11 +32,10 @@ class BankAccount {
 let acc = new BankAccount(247823786, 'od', 2345);
 acc.accountInfo();
 acc.deposit(1200);
+acc.withdraw(1000);
 acc.accountInfo();
 
-acc.accountInfo();
-acc.withdraw(500);
-acc.accountInfo();
+
 
 
 

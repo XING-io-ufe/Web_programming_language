@@ -15,7 +15,7 @@
 // 225
 
 const prompt = require('prompt-sync')();
-let n = parseInt(prompt('Натурал тоог оруулна уу:'));
+let n = parseInt(prompt('Натурал тоог оруулна уу:'), 10);
 
 
 let sum = (n * (n + 1)) / 2;

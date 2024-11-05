@@ -58,16 +58,15 @@ let book = new Book("ToF", "joy", "2024-01-04", 6, "action", 4000);
 
 book.bookInfo();
 book.changeBookPrice(5000);
-book.bookInfo();
+
 
 book.changeBookGenre("romance")
-book.bookInfo();
 
 book.changeBookQuantity(5);
-book.bookInfo();
+
 
 book.changeBookNameAuthor("FoT", "may");
-book.bookInfo();
+
 
 book.changeBookDate("2022-01-01");
-book.bookInfo();
+

@@ -6,7 +6,7 @@ let DavtsanElement;
 for (let i = 0; i < arr.length; i++) {
     let tooloh = 0;
     for (let j = 0; j < arr.length; j++) {
-        if (arr[i] === arr[j]) {
+        if (arr[i] == arr[j]) {
             tooloh++;
         }
     }
@@ -17,3 +17,4 @@ for (let i = 0; i < arr.length; i++) {
 }
 
 console.log('davtsan too ' + DavtsanElement + ' heden udaa ' + Davtalt);
+

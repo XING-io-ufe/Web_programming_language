@@ -3,7 +3,7 @@ function swap(x) {
 
     let String_number = String(x);
 
-    if (String_number.length % 2 !== 0) {
+    if (String_number.length % 2 != 0) {
         return false;
     }
 
@@ -11,11 +11,10 @@ function swap(x) {
 
     let i = 0;
 
-    // Зэргэлдээ цифрүүдийг солих while давталт
     while (i < String_number.length) {
-        swapped += String_number[i + 1]; // Хоёрдугаар цифрийг нэмж байна
-        swapped += String_number[i];       // Эхний цифрийг нэмж байна
-        i += 2; // Дараагийн зэргэлдээ цифр рүү шилжих
+        swapped += String_number[i + 1];
+        swapped += String_number[i];
+        i += 2;
     }
 
 

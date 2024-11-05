@@ -7,10 +7,10 @@ var K = prompt('garaas K too oruulna uu: ');
 
 var count = 0;
 for (var i = 0; i < N; i++) {
-        arr[i] = prompt('too');
+    arr[i] = prompt(`too ${i + 1}: `);
 }
 for (var i = 0; i < N; i++) {
-    if(arr[i] % K ==0){
+    if (arr[i] % K == 0) {
         count++
     }
 }
